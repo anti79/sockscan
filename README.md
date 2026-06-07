@@ -15,6 +15,7 @@ That's why I made this little script. It is similar to the nmap -sT mode, but wi
 - only dependency is PySocks
 - new service definitions unlike nmap's ancient ones: find things like Docker, IoT, Kubernetes and so on
 - `--randomize` to look a little less suspicious (probably won't help you)
+- banner grabbing (add `-b`) with support for HTTP
 - pretty colors
 
 # Usage
