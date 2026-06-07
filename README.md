@@ -20,4 +20,4 @@ That's why I made this little script. It is similar to the nmap -sT mode, but wi
 
 # Usage
 
-`portscan.py -p- -oC portscan_results.csv -T50 --proxy socks5://localhost:5004 192.168.100.0/24 --randomize`
+`sockscan.py -p- -oC portscan_results.csv -T50 --proxy socks5://localhost:5004 192.168.100.0/24 --randomize`
